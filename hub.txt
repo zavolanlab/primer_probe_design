@@ -1,0 +1,16 @@
+hub PRRSV_Hub
+shortLabel PRRSV
+longLabel PRRSV
+useOneFile on
+email magmir71@gmail.com
+descriptionUrl https://raw.githubusercontent.com/zavolanlab/primer_probe_design/main/track_descriptions/Track_hub_description.html
+
+genome prrsv_lelystad_vr2332
+groups prrsv_lelystad_vr2332/groups.txt
+description old genome sequences of PRRSV reference strains Lelystad and VR2332
+twoBitPath prrsv_lelystad_vr2332/prrsv_lelystad_vr2332.2bit
+organism Betaarterivirus americense
+defaultPos M96262.2:1-1000
+orderKey 4800
+scientificName Betaarterivirus americense
+htmlPath prrsv_lelystad_vr2332/description.html

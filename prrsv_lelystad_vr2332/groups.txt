@@ -1,0 +1,4 @@
+name map
+label Mapping
+priority 2
+defaultIsClosed 0
