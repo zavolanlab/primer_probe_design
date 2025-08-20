@@ -1,0 +1,6 @@
+track cytoBandIdeo
+longLabel Chromosome ideogram with cytogenetic bands
+shortLabel cytoBandIdeo
+bigDataUrl cytoBandIdeo.bigBed
+type bigBed
+#For more info. on the cytoBandIdeo track see http://genomewiki.ucsc.edu/index.php/Assembly_Hubs#Cytoband_Track
