@@ -1,3 +1,8 @@
+name user
+label Custom
+priority 1
+defaultIsClosed 1
+
 name map
 label Assembly
 priority 2

@@ -7,7 +7,7 @@ descriptionUrl https://raw.githubusercontent.com/zavolanlab/primer_probe_design/
 
 genome prrsv_lelystad_vr2332
 trackDb prrsv_lelystad_vr2332/trackDb.txt
-groups prrsv_lelystad_vr2332/groups.txt
+groups groups.txt
 description genome sequences of PRRSV reference strains Lelystad (PRRSV type-1) and VR2332 (PRRSV type-2)
 twoBitPath prrsv_lelystad_vr2332/prrsv_lelystad_vr2332.2bit
 organism Betaarterivirus americense
