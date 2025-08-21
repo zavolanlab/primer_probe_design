@@ -1,0 +1,10 @@
+genome prrsv_lelystad_vr2332
+trackDb prrsv_lelystad_vr2332/trackDb.txt
+groups groups.txt
+description genome sequences of PRRSV reference strains Lelystad (PRRSV type-1) and VR2332 (PRRSV type-2)
+twoBitPath prrsv_lelystad_vr2332/prrsv_lelystad_vr2332.2bit
+organism Betaarterivirus americense
+defaultPos VR2332.PRRSV_2:1-1000
+orderKey 4800
+scientificName Betaarterivirus americense
+htmlPath prrsv_lelystad_vr2332/description.html
