@@ -12,7 +12,7 @@ type bam
 db prrsv_lelystad_vr2332
 description Pairwise alignments of assembled WGS genomes to reference strains
 maxWindowToDraw 200000
-visibility=pack
+visibility pack
 bigDataUrl WGS_Canadian_PMID32817228.sorted.bam
 group wgs
 html WGS_Canadian
