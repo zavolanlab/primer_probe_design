@@ -6,9 +6,9 @@ Lelystad.PRRSV_1	12945	13497	ORF4	0	+	12945	13497	0	1	552,	0,	ORF4	cmpl	cmpl	0,	
 Lelystad.PRRSV_1	13493	14099	ORF5	0	+	13493	14099	0	1	606,	0,	ORF5	cmpl	cmpl	0,		ORF5	ORF5	
 Lelystad.PRRSV_1	14086	14608	ORF6	0	+	14086	14608	0	1	522,	0,	envelope protein	cmpl	cmpl	0,		ORF6	envelope protein	
 Lelystad.PRRSV_1	14597	14984	ORF7	0	+	14597	14984	0	1	387,	0,	nucleocapsid protein	cmpl	cmpl	0,		ORF7	nucleocapsid protein	
-VR2332.PRRSV_2	0	189	5_UTR	0	+	0	189	0	1	189,	0,	5_UTR	cmpl	cmpl	0,		5_UTR	5_UTR	
+VR2332.PRRSV_2	0	189	5_UTR	0	+	0	0	0	1	189,	0,	5_UTR	unk	unk	-1,		5_UTR	5_UTR	
 VR2332.PRRSV_2	189	7701	ORF1a	0	+	189	7701	0	1	7512,	0,	1a replicase	cmpl	cmpl	0,		ORF1a	1a replicase	
-VR2332.PRRSV_2	7684	7763	Ribo_minus_one_frameshift	0	+	7684	7763	0	1	79,	0,	Ribo_minus_one_frameshift	cmpl	cmpl	0,		Ribo_minus_one_frameshift	Ribo_minus_one_frameshift	
+VR2332.PRRSV_2	7684	7763	Ribo_minus_one_frameshift	0	+	0	0	0	1	79,	0,	Ribo_minus_one_frameshift	unk	unk	-1,		Ribo_minus_one_frameshift	Ribo_minus_one_frameshift	
 VR2332.PRRSV_2	7697	12071	ORF1ab	0	+	7697	12071	0	1	4374,	0,	1ab replicase	cmpl	cmpl	0,		ORF1ab	1ab replicase	
 VR2332.PRRSV_2	12072	12843	ORF2	0	+	12072	12843	0	1	771,	0,	GP2 envelope protein	cmpl	cmpl	0,		ORF2	GP2 envelope protein	
 VR2332.PRRSV_2	12077	12299	ORF2b	0	+	12077	12299	0	1	222,	0,	E envelope protein	cmpl	cmpl	0,		ORF2b	E envelope protein	
@@ -17,5 +17,5 @@ VR2332.PRRSV_2	13240	13777	ORF4	0	+	13240	13777	0	1	537,	0,	GP4 envelope protein
 VR2332.PRRSV_2	13787	14390	ORF5	0	+	13787	14390	0	1	603,	0,	GP5 envelope protein	cmpl	cmpl	0,		ORF5	GP5 envelope protein	
 VR2332.PRRSV_2	14374	14899	ORF6	0	+	14374	14899	0	1	525,	0,	M matrix protein	cmpl	cmpl	0,		ORF6	M matrix protein	
 VR2332.PRRSV_2	14888	15260	ORF7	0	+	14888	15260	0	1	372,	0,	N nucleocapsid protein	cmpl	cmpl	0,		ORF7	N nucleocapsid protein	
-VR2332.PRRSV_2	15260	15411	3_UTR	0	+	15260	15411	0	1	151,	0,	3_UTR	cmpl	cmpl	0,		3_UTR	3_UTR	
-VR2332.PRRSV_2	15408	15409	polyA_site	0	+	15408	15409	0	1	1,	0,	polyA_site	cmpl	cmpl	0,		polyA_site	polyA_site	
+VR2332.PRRSV_2	15260	15411	3_UTR	0	+	0	0	0	1	151,	0,	3_UTR	unk	unk	-1,		3_UTR	3_UTR	
+VR2332.PRRSV_2	15408	15409	polyA_site	0	+	0	0	0	1	1,	0,	polyA_site	unk	unk	-1,		polyA_site	polyA_site	
