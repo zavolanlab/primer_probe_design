@@ -5,6 +5,16 @@ bigDataUrl cytoBandIdeo.bigBed
 type bigBed
 #For more info. on the cytoBandIdeo track see http://genomewiki.ucsc.edu/index.php/Assembly_Hubs#Cytoband_Track
 
+track genebank_features
+longLabel Genebank genome features 
+shortLabel GB features
+type bigGenePred
+description Genome features annotated in the Genebank files of the reference genomes
+visibility pack
+bigDataUrl prrsv_lelystad_vr2332.gene_annotation.bb
+group genes
+html genes
+
 track wgs_canadian
 longLabel Canadian, PMID 32817228 
 shortLabel wgs_canadian
