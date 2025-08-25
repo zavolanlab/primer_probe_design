@@ -12,6 +12,18 @@ type bigGenePred
 description Genome features annotated in the Genebank files of the reference genomes
 visibility pack
 bigDataUrl prrsv_lelystad_vr2332.gene_annotation.bb
+baseColorDefault genomicCodons
+group genes
+html genes
+
+track USSPD_features
+longLabel US swine pathogene database features 
+shortLabel USSPD features
+type bigGenePred
+description Feautures were obtained from USSPD annotations of curated GB sequences, mapped to the reference strains
+visibility pack
+bigDataUrl prrsv_lelystad_vr2332.USSPD_annotation.bb
+baseColorDefault genomicCodons
 group genes
 html genes
 
