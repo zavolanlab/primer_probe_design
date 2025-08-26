@@ -57,3 +57,27 @@ visibility full
 bigDataUrl WGS_Canadian_PMID32817228.bigwig
 group wgs
 html WGS_Canadian
+
+track existing_primers
+longLabel Established primers referenced in WOAH Terrestrial Manual 2021  
+shortLabel existing_primers
+type bam
+db prrsv_lelystad_vr2332
+description Pairwise alignments of established primers to reference strains
+maxWindowToDraw 200000
+visibility pack
+bigDataUrl primers.Aligned.sortedByCoord.out.bam
+group primers_and_probes
+html WGS_Canadian
+
+track existing_probes
+longLabel Established probes referenced in WOAH Terrestrial Manual 2021  
+shortLabel existing_probes
+type bam
+db prrsv_lelystad_vr2332
+description Pairwise alignments of established probes to reference strains
+maxWindowToDraw 200000
+visibility pack
+bigDataUrl PROBE.Aligned.sortedByCoord.out.bam
+group primers_and_probes
+html WGS_Canadian

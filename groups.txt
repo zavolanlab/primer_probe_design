@@ -17,3 +17,8 @@ name wgs
 label WGS
 priority 4
 defaultIsClosed 0
+
+name primers_and_probes
+label Primers and Probes
+priority 5
+defaultIsClosed 0
