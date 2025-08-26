@@ -66,6 +66,9 @@ db prrsv_lelystad_vr2332
 description Pairwise alignments of established primers to reference strains
 maxWindowToDraw 200000
 visibility pack
+pairEndsByName .
+pairSearchRange 10000
+showNames on
 bigDataUrl primers.Aligned.sortedByCoord.out.bam
 group primers_and_probes
 html WGS_Canadian
