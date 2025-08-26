@@ -38,3 +38,22 @@ visibility pack
 bigDataUrl WGS_Canadian_PMID32817228.sorted.bam
 group wgs
 html WGS_Canadian
+
+track wgs_canadian_cons
+longLabel nt conservation, %, Canadian, PMID 32817228 
+shortLabel wgs_canadian_cons
+type bigWig
+db prrsv_lelystad_vr2332
+description nt conservation %, based on pairwise alignments of assembled WGS genomes to reference strains
+maxWindowToQuery 2000
+alwaysZero on
+viewLimits 0:100
+viewLimitsMax 0:100
+windowingFunction mean+whiskers
+gridDefault on
+color 128,0,128
+maxHeightPixels 100:16:8
+visibility full
+bigDataUrl WGS_Canadian_PMID32817228.bigwig
+group wgs
+html WGS_Canadian
