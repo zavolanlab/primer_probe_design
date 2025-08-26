@@ -28,7 +28,7 @@ group genes
 html genes
 
 track wgs_canadian
-longLabel Canadian, PMID 32817228 
+longLabel Canadian WGS, PMID 32817228 
 shortLabel wgs_canadian
 type bam
 db prrsv_lelystad_vr2332
@@ -40,7 +40,7 @@ group wgs
 html WGS_Canadian
 
 track wgs_canadian_cons
-longLabel nt SNV conservation, %, Canadian, PMID 32817228 
+longLabel nt SNV conservation, %, Canadian WGS, PMID 32817228 
 shortLabel wgs_canadian_cons
 type bigWig
 db prrsv_lelystad_vr2332
