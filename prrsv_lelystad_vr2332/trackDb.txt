@@ -51,8 +51,8 @@ viewLimits 0:100
 viewLimitsMax 0:100
 windowingFunction mean+whiskers
 gridDefault on
-color 128,0,128
-maxHeightPixels 100:16:8
+color 20,72,156
+maxHeightPixels 100:50:8
 visibility full
 bigDataUrl WGS_Canadian_PMID32817228.bigwig
 group wgs
