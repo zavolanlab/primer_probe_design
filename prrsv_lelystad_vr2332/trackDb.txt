@@ -58,6 +58,17 @@ bigDataUrl WGS_Canadian_PMID32817228.bigwig
 group wgs
 html WGS_Canadian
 
+track wgs_canadian_msa
+longLabel multiple sequence alignment, Canadian WGS, PMID 32817228 
+shortLabel wgs_canadian_msa
+type bigMaf
+db prrsv_lelystad_vr2332
+description multiple sequence alignment, with anchoring to VR2332.PRRSV_2
+visibility full
+bigDataUrl WGS_Canadian_PMID32817228.msa.bb
+group wgs
+html WGS_Canadian
+
 track existing_primers
 longLabel Established primers referenced in WOAH Terrestrial Manual 2021  
 shortLabel existing_primers
