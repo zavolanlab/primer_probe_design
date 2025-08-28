@@ -27,21 +27,21 @@ baseColorDefault genomicCodons
 group genes
 html genes
 
-track wgs_canadian
-longLabel Canadian WGS, PMID 32817228 
-shortLabel wgs_canadian
+track wgs_canadian_PA
+longLabel pairwise alignment, Canadian WGS, PMID 32817228
+shortLabel wgs_canadian_PA
 type bam
 db prrsv_lelystad_vr2332
 description Pairwise alignments of assembled WGS genomes to reference strains
 maxWindowToDraw 200000
-visibility squish
+visibility hide
 bigDataUrl WGS_Canadian_PMID32817228.sorted.bam
 group wgs
 html WGS_Canadian
 
-track wgs_canadian_cons
-longLabel nt SNV conservation, %, Canadian WGS, PMID 32817228 
-shortLabel wgs_canadian_cons
+track wgs_canadian_cons_PA
+longLabel nt SNV conservation, %, Canadian WGS, PMID 32817228, based on PA
+shortLabel wgs_canadian_cons_PA
 type bigWig
 db prrsv_lelystad_vr2332
 description nt SNV conservation %, based on pairwise alignments of assembled WGS genomes to reference strains
@@ -53,7 +53,7 @@ windowingFunction mean+whiskers
 gridDefault on
 color 20,72,156
 maxHeightPixels 100:50:8
-visibility full
+visibility hide
 bigDataUrl WGS_Canadian_PMID32817228.bigwig
 group wgs
 html WGS_Canadian
@@ -64,8 +64,10 @@ shortLabel wgs_canadian_msa
 type bigMaf
 db prrsv_lelystad_vr2332
 description multiple sequence alignment, with anchoring to VR2332.PRRSV_2
-visibility full
+visibility pack
 bigDataUrl WGS_Canadian_PMID32817228.msa.bb
+summary WGS_Canadian_PMID32817228.msa.mafSummary.bb
+frames WGS_Canadian_PMID32817228.msa.mafFrames.bb
 group wgs
 html WGS_Canadian
 
