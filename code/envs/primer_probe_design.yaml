@@ -1,0 +1,17 @@
+name: primer_probe_design
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - bioconda::samtools
+  - bioconda::bedtools
+  - conda-forge::pigz
+  - bioconda::seqkit=2.8.2
+  - python=3.12
+  - conda-forge::pandas
+  - conda-forge::biopython
+  - bioconda::htseq
+  - conda-forge::numpy
+  - bioconda::minimap2
+  - bioconda::STAR
+...
